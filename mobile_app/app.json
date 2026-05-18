@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "VitalTrace ECG",
+    "slug": "vitaltrace-ecg",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "vitaltrace-ecg",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0E14"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription": "VitalTrace needs Bluetooth to connect to your ECG monitor.",
+        "NSBluetoothPeripheralUsageDescription": "VitalTrace needs Bluetooth to connect to your ECG monitor."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0E14"
+      },
+      "permissions": [
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_CONNECT",
+        "android.permission.BLUETOOTH_SCAN",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.INTERNET"
+      ],
+      "package": "com.ashishjha0125.vitaltraceecg"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "react-native-ble-plx",
+        {
+          "isBackgroundEnabled": true,
+          "modes": [
+            "peripheral",
+            "central"
+          ],
+          "bluetoothAlwaysPermission": "Allow VitalTrace to connect to your ECG monitor."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6f4738b5-0598-46a0-bca7-9b82fd482692"
+      }
+    }
+  }
+}
