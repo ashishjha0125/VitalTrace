@@ -5,8 +5,8 @@ A real-time ECG (Electrocardiogram) monitoring system built with ESP32 hardware,
 ## Mobile Application Interface
 
 <div align="center">
-  <img src="assets/screenshots/live_monitoring.jpg" width="320" alt="Real-time Live ECG Patient Monitoring" />
-  <p><b>🫀 Live Patient ECG Monitoring</b><br/><i>Real-time 200 Hz Skia waveform stream, dynamic pulse ring, and leads-off telemetry</i></p>
+  <img src="assets/screenshots/real_patient_monitoring.jpg" width="320" alt="Real-time Live ECG Patient Monitoring" />
+  <p><b>🫀 Live Patient ECG Monitoring (94 BPM • 199 Hz Real-time Stream)</b><br/><i>Real-time 200 Hz Skia waveform stream, dynamic pulse ring, and leads-off telemetry</i></p>
 </div>
 
 ### App Screenshots Showcase
@@ -191,6 +191,11 @@ VitalTrace-ECG/
 - Android/iOS device with Bluetooth LE support
 
 ### Hardware Setup
+
+<div align="center">
+  <img src="assets/hardware_setup.jpg" width="400" alt="ESP32 and AD8232 ECG Hardware Setup" />
+  <p><b>🔌 VitalTrace ESP32 + AD8232 Hardware Setup with 3-Lead Electrode Snaps</b></p>
+</div>
 
 Connect the AD8232 module to the ESP32:
 
