@@ -5,16 +5,16 @@ A real-time ECG (Electrocardiogram) monitoring system built with ESP32 hardware,
 ## Mobile Application Interface
 
 <div align="center">
-  <img src="assets/screenshots/real_patient_monitoring.jpg" width="320" alt="Real-time Live ECG Patient Monitoring" />
-  <p><b>🫀 Live Patient ECG Monitoring (94 BPM • 199 Hz Real-time Stream)</b><br/><i>Real-time 200 Hz Skia waveform stream, dynamic pulse ring, and leads-off telemetry</i></p>
+  <img src="assets/screenshots/front_live_monitoring.jpg" width="320" alt="Real-time Live ECG Patient Monitoring" />
+  <p><b>🫀 Real-time Live ECG Monitoring (86 BPM • 200 Hz Precision Stream)</b><br/><i>High-definition Skia canvas waveform renderer displaying clean P-QRS-T complexes & telemetry</i></p>
 </div>
 
-### App Screenshots Showcase
+### App Screenshots & Patient Diagnostics Showcase
 
-| 📈 BPM Trends & Timeline | 🔬 Clinical Rhythm Reports | ⚙️ DSP Filter Tuning |
-|:---:|:---:|:---:|
-| <img src="assets/screenshots/trends_analytics.jpg" width="260" alt="BPM Trends" /> | <img src="assets/screenshots/clinical_reports.jpg" width="260" alt="Clinical Reports" /> | <img src="assets/screenshots/dsp_settings.jpg" width="260" alt="DSP Settings" /> |
-| Heart rate variability & zone tracking | Pan-Tompkins wave morphology analysis | Low-pass, high-pass & 50Hz notch filters |
+| 🫀 Patient Cardiac Check | 📈 BPM Trends & Timeline | 🔬 Clinical Diagnostics | ⚙️ DSP Filter Tuning |
+|:---:|:---:|:---:|:---:|
+| <img src="assets/screenshots/patient_anomaly_report.jpg" width="220" alt="Real Patient Cardiac Check" /> | <img src="assets/screenshots/trends_analytics.jpg" width="220" alt="BPM Trends" /> | <img src="assets/screenshots/clinical_reports.jpg" width="220" alt="Clinical Reports" /> | <img src="assets/screenshots/dsp_settings.jpg" width="220" alt="DSP Settings" /> |
+| Real patient live monitoring (94 BPM • 199 Hz) | Heart rate variability & zone tracking | Pan-Tompkins wave morphology analysis | Low-pass, high-pass & 50Hz notch filters |
 
 ## Features
 
