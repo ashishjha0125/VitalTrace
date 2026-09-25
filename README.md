@@ -2,6 +2,20 @@
 
 A real-time ECG (Electrocardiogram) monitoring system built with ESP32 hardware, React Native mobile app, and Node.js backend. Captures cardiac signals via the AD8232 sensor, streams them over Bluetooth Low Energy, applies digital signal processing filters, performs automated rhythm analysis, and generates AI-powered clinical insights.
 
+## Mobile Application Interface
+
+<div align="center">
+  <img src="assets/screenshots/live_monitoring.jpg" width="320" alt="Real-time Live ECG Patient Monitoring" />
+  <p><b>🫀 Live Patient ECG Monitoring</b><br/><i>Real-time 200 Hz Skia waveform stream, dynamic pulse ring, and leads-off telemetry</i></p>
+</div>
+
+### App Screenshots Showcase
+
+| 📈 BPM Trends & Timeline | 🔬 Clinical Rhythm Reports | ⚙️ DSP Filter Tuning |
+|:---:|:---:|:---:|
+| <img src="assets/screenshots/trends_analytics.jpg" width="260" alt="BPM Trends" /> | <img src="assets/screenshots/clinical_reports.jpg" width="260" alt="Clinical Reports" /> | <img src="assets/screenshots/dsp_settings.jpg" width="260" alt="DSP Settings" /> |
+| Heart rate variability & zone tracking | Pan-Tompkins wave morphology analysis | Low-pass, high-pass & 50Hz notch filters |
+
 ## Features
 
 **Hardware & Signal Acquisition**
